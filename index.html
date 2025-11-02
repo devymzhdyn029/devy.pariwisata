@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoTrip - Teman Liburanmu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="logo">🌴 GoTrip</div>
+    <nav>
+      <ul>
+        <li><a href="#">Paket Liburan</a></li>
+        <li><a href="#">Promo</a></li>
+        <li><a href="#">Bantuan</a></li>
+        <li><a href="#">Wishlist</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <button class="btn-outline">Masuk</button>
+      <button class="btn">Daftar</button>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="search-box">
+        <h1>Apa Destinasi Liburanmu?</h1>
+
+        <div class="form-grid">
+          <div>
+            <label>Dari</label>
+            <select>
+              <option>Jakarta</option>
+              <option>Surabaya</option>
+              <option>Medan</option>
+            </select>
+          </div>
+          <div>
+            <label>Tujuan</label>
+            <select>
+              <option>Bali</option>
+              <option>Yogyakarta</option>
+              <option>Lombok</option>
+            </select>
+          </div>
+          <div>
+            <label>Berangkat</label>
+            <input type="date">
+          </div>
+          <div>
+            <label>Pulang</label>
+            <input type="date">
+          </div>
+          <div>
+            <label>Tamu</label>
+            <input type="number" value="2" min="1">
+          </div>
+          <div>
+            <label>Kamar</label>
+            <input type="number" value="1" min="1">
+          </div>
+        </div>
+
+        <button class="btn-search">Dapatkan Penawaranmu Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Best Deals Section ===== -->
+  <section class="deals">
+    <h2>Penawaran Liburan Terbaik</h2>
+    <div class="city-filter">
+      <button class="active">Semua</button>
+      <button>Bali</button>
+      <button>Yogyakarta</button>
+      <button>Lombok</button>
+      <button>Bandung</button>
+    </div>
+
+    <div class="deal-cards">
+      <!-- Kartu Bali -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" alt="Bali">
+        <div class="card-content">
+          <div class="discount">30% OFF</div>
+          <h3>Liburan di Bali</h3>
+          <p>4 hari 3 malam termasuk penerbangan dan hotel bintang 4.</p>
+          <p class="date">Tersedia hingga 30 Desember 2025</p>
+          <div class="rating">⭐ 4.7</div>
+        </div>
+      </div>
+
+      <!-- ✅ Kartu Yogyakarta (gambar diganti) -->
+      <div class="card">
+        <img src="7-Rekomendasi-Wisata-Budaya-di-Jogja.webp" alt="Yogyakarta">
+        <div class="card-content">
+          <div class="discount">20% OFF</div>
+          <h3>Wisata Budaya Yogyakarta</h3>
+          <p>Eksplor Candi Prambanan dan kuliner khas Jogja selama 5 hari.</p>
+          <p class="date">Tersedia hingga 10 Januari 2026</p>
+          <div class="rating">⭐ 4.6</div>
+        </div>
+      </div>
+
+      <!-- ✅ Kartu Lombok (gambar diganti) -->
+      <div class="card">
+        <img src="d5620e190608.jpg" alt="Lombok">
+        <div class="card-content">
+          <div class="discount">40% OFF</div>
+          <h3>Keindahan Lombok</h3>
+          <p>Liburan pantai 5 hari 4 malam dengan fasilitas snorkeling.</p>
+          <p class="date">Tersedia hingga 12 Februari 2026</p>
+          <div class="rating">⭐ 4.8</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 GoTrip. Semua hak cipta dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
